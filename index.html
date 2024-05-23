@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Moderation with chatGPT</title>
+    <script defer src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <h1>Moderation text with chatGPT</h1>
+    <form>
+      <label for="text"></label>
+      <textarea name="text" id="textArea" cols="50" rows="10"></textarea>
+      <button id="submit">Moderate</button>
+    </form>
+    <p>Original text: <span id="originalText"></span></p>
+    <p>Moderated text: <span id="moderatedText"></span></p>
+    <p>Errors: <span id="errors"></span></p>
+  </body>
+</html>
